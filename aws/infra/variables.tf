@@ -7,7 +7,11 @@ variable "instance_type" {
 variable "tags" {
   description = "Tags for instances"
   type        = map
-  default     = {}
+  default     = {
+    Environment     = "Dev"
+    Service         = "Example"
+    HashiCorp-Learn = "aws-default-tags"
+  }
 }
 
 variable "aws_region" {
