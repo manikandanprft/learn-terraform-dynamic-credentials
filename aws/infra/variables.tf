@@ -11,6 +11,7 @@ variable "tags" {
     Environment     = "Dev"
     Service         = "Example"
     HashiCorp-Learn = "aws-default-tags"
+    Name            = "Manikandan"
   }
 }
 
